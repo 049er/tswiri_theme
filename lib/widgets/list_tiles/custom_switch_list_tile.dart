@@ -20,7 +20,7 @@ class _CustomSwitchListTileState extends State<CustomSwitchListTile> {
   @override
   Widget build(BuildContext context) {
     return SwitchListTile(
-      // activeColor: Theme.of(context).colorScheme.secondary,
+      activeColor: Theme.of(context).colorScheme.secondary,
       title: Text(
         widget.title,
       ),
